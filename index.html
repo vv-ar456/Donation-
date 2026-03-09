@@ -90,8 +90,22 @@ background:#00e676;
 border-radius:20px;
 }
 
+/* DONATE BUTTON */
+
+.donate{
+text-align:center;
+margin-top:30px;
+}
+
+.donate form{
+transform:scale(1.35);
+display:inline-block;
+}
+
+/* TOP DONORS */
+
 .topdonors{
-margin-top:25px;
+margin-top:35px;
 background:#173c7a;
 padding:20px;
 border-radius:10px;
@@ -110,20 +124,7 @@ padding:10px 15px;
 background:#1f4f9a;
 margin-bottom:8px;
 border-radius:8px;
-}
-
-.donor span{
 font-weight:bold;
-}
-
-.donate{
-text-align:center;
-margin-top:30px;
-}
-
-.donate form{
-transform:scale(1.35);
-display:inline-block;
 }
 
 </style>
@@ -165,6 +166,7 @@ Only ₹41,838 still needed 🙏
 
 </div>
 
+
 <div class="stats">
 
 <div class="statbox">
@@ -179,9 +181,25 @@ Only ₹41,838 still needed 🙏
 
 </div>
 
+
 <div class="progress">
 <div class="progress-bar" style="width:0.39%"></div>
 </div>
+
+
+<!-- DONATE BUTTON -->
+
+<div class="donate">
+
+<form>
+<script src="https://checkout.razorpay.com/v1/payment-button.js"
+data-payment_button_id="pl_SORrhbmEVxoAsj"
+async>
+</script>
+</form>
+
+</div>
+
 
 <!-- TOP DONORS -->
 
@@ -211,16 +229,6 @@ Only ₹41,838 still needed 🙏
 
 </div>
 
-<div class="donate">
-
-<form>
-<script src="https://checkout.razorpay.com/v1/payment-button.js"
-data-payment_button_id="pl_SORrhbmEVxoAsj"
-async>
-</script>
-</form>
-
-</div>
 
 </div>
 
